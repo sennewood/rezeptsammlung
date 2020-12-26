@@ -1,3 +1,15 @@
+## LaTeX Snippets
+_dev/*
+_aux/*
+_out/*
+
+## Dist
+impressum.tex
+titlepage.tex
+rezeptsammlung.tex
+content/*
+create.bat
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

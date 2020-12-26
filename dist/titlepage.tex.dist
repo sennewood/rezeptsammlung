@@ -1,0 +1,48 @@
+\centering % Centre everything on the title page
+
+\scshape % Use small caps for all text on the title page
+
+\vspace*{\baselineskip} % White space at the top of the page
+
+%------------------------------------------------
+%	Title
+%------------------------------------------------
+
+\rule{\textwidth}{1.5pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
+\rule{\textwidth}{0.1pt} % Thin horizontal rule
+
+\vspace{0.75\baselineskip}
+
+    \Huge{Rezeptsammlung}
+
+    \smallskip
+
+    \Large{Kochen und Backen}
+
+\rule{\textwidth}{0.5pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal rule
+\rule{\textwidth}{1.5pt} % Thick horizontal rule
+
+\vspace{2\baselineskip} % Whitespace after the title block
+
+%------------------------------------------------
+%	Subtitle
+%------------------------------------------------
+
+% \normalsize{\textnormal{\rgSubtitle}}
+
+\vspace*{3\baselineskip} % Whitespace under the subtitle
+
+%------------------------------------------------
+%	Editor(s)
+%------------------------------------------------
+
+%entwickelt und geschrieben
+
+% \normalsize{\textnormal{Ein Spiel von}}
+\large{\textnormal{Zusammengetragen von}}
+
+\vspace{0.5\baselineskip} % Whitespace before the editors
+
+{\scshape\Large Vorname Nachname} % Editor list
+
+\vfill

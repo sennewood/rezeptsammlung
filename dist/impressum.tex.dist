@@ -1,0 +1,19 @@
+\section*{Impressum}
+
+\begin{description}[align=right,leftmargin=!,labelwidth=\widthof{\bfseries Diese-Version:}]
+    \setlength{\itemsep}{5pt}
+    \item[Titel:] {\glqq Rezeptsammlung\grqq{}}
+    \item[Urheber:] {Vorname Nachname}
+    \item[Quelltext:] {\url{https://github.com/sennewood/rezeptsammlung}}
+    %\item[Erste Version:] {Veröffentlicht am xx.xx.xxxx}
+    \item[Diese Version:] {Veröffentlicht am xx.xx.xxxx}
+\end{description}
+
+
+\section*{Lizenz}
+
+Dieses Werk unterliegt der \textbf{Creative Commons Lizenz} vom Typ \textbf{CC0 1.0 Universell}. Um eine Kopie dieser Lizenz einzusehen, konsultieren Sie \url{https://creativecommons.org/publicdomain/zero/1.0/deed.de} oder wenden Sie sich brieflich an Creative Commons, Postfach 1866, Mountain View, California, 94042, USA.
+
+Die Person, die ein Werk mit dieser Deed verknüpft hat, hat dieses Werk in die Gemeinfreiheit - auch genannt Public Domain - entlassen, indem sie weltweit auf alle urheberrechtlichen und verwandten Schutzrechte verzichtet hat, soweit das gesetzlich möglich ist.
+
+Sie dürfen das Werk kopieren, verändern, verbreiten und aufführen, sogar zu kommerziellen Zwecken, ohne um weitere Erlaubnis bitten zu müssen.

@@ -1,0 +1,78 @@
+% \documentclass[a4paper,11pt,titlepage,twoside,openright]{book}	% Print
+\documentclass[a4paper,11pt,titlepage,oneside,openany]{book}		% PDF
+
+\usepackage{packages}
+
+
+\begin{document}
+
+
+\begin{titlepage}
+	\input{titlepage}
+\end{titlepage}
+
+\include{impressum}
+
+\tableofcontents
+
+% ========================================================= %
+
+\chapter{Nudeln}
+\newpage
+	\include{content/nudeln/spaghetti-gemuese-wein}
+	\include{content/nudeln/nudelauflauf-hohnstorf}
+	\include{content/nudeln/mediterraner-nudelsalat}
+	\include{content/nudeln/hagunu}
+	\include{content/nudeln/penne-garnelen}
+
+
+\chapter{Suppen}
+\newpage
+	\include{content/suppen/frische}
+	\include{content/suppen/kartoffelsuppe}
+
+
+\chapter{Fleischgerichte}
+\newpage
+	\include{content/fleisch/putenbrust-gefuellt}	
+
+
+\chapter{Backen}
+\newpage
+	\include{content/backen/pizzateig}
+	\include{content/backen/baguette}
+	\include{content/backen/kaesekuchen}
+	\include{content/backen/tkkg-schokokuchen}
+	\include{content/backen/mud-cake}
+	\include{content/backen/obstboden}
+	\include{content/backen/tortenboden}
+
+
+\chapter{Soßen \& Dips}
+\newpage
+	\include{content/saucen-dips/tomaten-salsa}
+	\include{content/saucen-dips/asia-dip}
+	\include{content/saucen-dips/satay-sauce}
+
+\chapter{Marinaden}
+\newpage
+	\include{content/marinaden/huhn}
+	\include{content/marinaden/rind-schwein-lamm}
+	\include{content/marinaden/rippchen-rind-gefluegel}
+	\include{content/marinaden/nackenscheiben}
+	\include{content/marinaden/alles}
+
+
+% ========================================================= %
+
+% \appendix
+% \part{Anhang}	
+		
+% ========================================================= %
+
+% \addcontentsline{toc}{part}{Index}
+% \printindex
+
+% ========================================================= %
+
+\end{document}

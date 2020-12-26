@@ -1,0 +1,8 @@
+@REM --- Create PDF ---
+pdflatex -quiet -enable-installer -aux-directory=_aux\ -output-directory=_out\ rezeptsammlung.tex
+pdflatex -quiet -aux-directory=_aux\ -output-directory=_out\ rezeptsammlung.tex
+@REM makeindex -q -s german.ist -g _aux\rezeptsammlung.idx
+pdflatex -quiet -aux-directory=_aux\ -output-directory=_out\ rezeptsammlung.tex
+pdflatex -quiet -aux-directory=_aux\ -output-directory=_out\ rezeptsammlung.tex
+
+pause >nul

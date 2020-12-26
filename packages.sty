@@ -1,0 +1,78 @@
+\ProvidesPackage{packages}
+
+% ----- German -----
+\usepackage[ngerman]{babel} % Neue deutsche Rechtschreibung
+
+
+% ----- Font -----
+\usepackage[utf8]{inputenc} % Kodierung des Eingabezeichensatzes
+\usepackage[T1]{fontenc}    % 8-bit Kodierung
+\usepackage{ae}             % Vector Fonts
+
+
+% ----- Layout / Design -----
+\usepackage{geometry}       % page layout
+\usepackage{emptypage}      % Really empty pages
+\usepackage{fancyhdr}       % Kopf- & Fußzeilen
+\usepackage{parskip}		    % Entfernung der Einrückung eines Absatzes
+\usepackage{float}          % Besseres Float-Management
+\usepackage{tocloft}
+\usepackage{sectsty}        % Überschriften formatieren
+% ----- Settings -----
+\sectionfont{\nohang\centering}
+\subsectionfont{\normalfont\scshape\underline}
+% ----- Settings -----
+%\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}  % for chapters
+%\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}  % for sections
+% ----- Settings -----
+\geometry{a4paper, portrait, inner=3.0cm, outer=3.0cm, tmargin=2cm, bmargin=2cm}
+
+% % ----- Tables -----
+\usepackage{multicol}		    % Mehrspaltiger Text
+
+
+% ----- Other -----
+\usepackage{enumitem}       % Aufzählungen
+% \usepackage{makeidx}        % Indexierung
+% \usepackage{hyperxmp}       % Metadata for PDF
+% ----- Settings -----
+% \makeindex
+
+
+% % ----- Math -----
+\usepackage{mathtools}      % Mathe-Pakete
+\usepackage{amsmath}		    % Basispaket
+\usepackage{amssymb}		    % Symbole
+
+
+% Hyperlinks (load at last if possible)
+\usepackage[bookmarks,raiselinks,pageanchor,hyperindex,colorlinks,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black,menucolor=black]{hyperref}
+
+
+\setcounter{secnumdepth}{3}	% Tiefe der Nummerung von Aufzählungen
+\setcounter{tocdepth}{2}	% Tiefe des Inhaltsverzeichnis
+
+% Einstellungen für Kopf- und Fußzeile
+\pagestyle{fancy}
+\fancyhf{} % Löschen der Vorbelegung
+
+% Kopfzeile
+\setlength{\headheight}{0mm} % Höhe der Kopfzeile
+% \fancyhead[EL,OL]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Fußzeile
+\fancyfoot[EL,OR]{\thepage}
+\renewcommand{\footrulewidth}{0pt}
+
+% Redefine the plain page style (i.e.: toc, chapters)
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[EL,OR]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+
+\endinput
