@@ -11,7 +11,7 @@ Wer einfach nur meine PDF herunterladen möchte, bitteschön: https://github.com
 
 ## Generierung der PDF
 
-- Alle Rezepte liegen in **content/<kategorie>/** und sind in der **rezeptesammlung.tex** verlinkt.
+- Alle Rezepte liegen in **content/[kategorie]/** und sind in der **rezeptesammlung.tex** verlinkt.
 - Nach einer Änderung einfach immer die **create.bat** ausführen um eine aktualisierte PDF zu erhalten.
 
 
