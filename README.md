@@ -6,7 +6,7 @@ Sinn und Zweck vom Repository ist den Quelltext für alle jene bereitzustellen, 
 
 Es geht **nicht** um den Austausch von Rezepten, dafür gibt es genug Möglichkeiten.
 
-Wer einfach nur meine PDF herunterladen möchte, bitteschön: https://github.com/sennewood/rezeptsammlung/releases
+Wer einfach nur meine PDF herunterladen möchte, bitteschön: https://github.com/sennewood/rezeptsammlung/releases/latest
 
 
 ## Generierung der PDF
